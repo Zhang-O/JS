@@ -1,0 +1,17 @@
+
+<html>
+<head>
+<style type="text/css">
+.a{height:400px;width:400px;}
+.b{height:100px;width:100px;margin:5px;border-radius:15px;float:left;background-color:oringe;}
+</style>
+</head>
+
+<body>
+<div class="a" >
+<div style="display:none" class="b"></div>  <div class="b"></div> <div class="b">555</div>
+<div class="b"></div> <div class="b"></div>  <div class="b"></div>
+<div class="b"></div> <div style="overflow: hidden; width:100px; height:100px" class="b"></div> <div   class="b"></div>
+</div>
+</body>
+</html>
