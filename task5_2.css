@@ -1,0 +1,128 @@
+* {
+    margin: 0 auto;
+    border: 0px red solid;
+    padding: 0;
+
+}
+
+body {
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+.container {
+    background-color: #fff;
+}
+
+.container .header {
+    background-color: RGB(95, 192, 205);
+    text-align: center;
+    padding: 2%;
+}
+
+.container .header img {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+}
+
+.container .header button {
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+    width: 20%;
+    display: inline-block;
+}
+
+/*-----*/
+.container .content {
+    color: RGB(153, 153, 153);
+}
+
+.container .content .select {
+    border-bottom: RGB(225, 229, 231) 1px solid;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.container .content .select select {
+    font-size: 1.6em;
+    width: 30%;
+    color: RGB(153, 153, 153);
+}
+
+.container .content .list p img {
+    width: 8%;
+}
+
+.container .content .list li {
+    font-size: 1.6em;
+    padding: 1% 0;
+    /*--border-top:RGB(153,153,153) solid 1px;--*/
+    border-bottom: RGB(225, 229, 231) solid 1px;
+}
+
+.container .content .list ul p {
+    display: inline-block;
+    width: 50%;
+    text-indent: 3%;
+    line-height: 1.6;
+}
+
+.container .content .list ul .p_indent {
+    padding-left: 6%;
+    color: RGB(51, 51, 51);
+
+}
+
+.container .content .list .span1 {
+    display: inline-block;
+    padding-left: 10%;
+    font-size: 1.1em;
+    color: red;
+}
+
+/*---------*/
+.footer {
+    text-align: center;
+    position: relative;
+}
+
+.footer .f_left {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    width: 10%;
+    max-width: 46px;
+
+}
+
+.footer .f_right {
+    position: absolute;
+    top: 14%;
+    right: 18%;
+    width: 9%;
+    max-width: 42px;
+
+}
+
+.footer .f_right a {
+    text-decoration: none;
+    color: RGB(153, 153, 153);
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.footer .f_left a {
+    text-decoration: none;
+    color: RGB(95, 192, 205);
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
