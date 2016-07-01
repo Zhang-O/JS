@@ -1,0 +1,180 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: 0px solid red;
+}
+
+
+body {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    background-color:white;
+    font-family: "Microsoft YaHei UI", serif;
+
+}
+
+
+
+@media screen and (max-width: 530px){
+    body {
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 400px){
+    body {
+        font-size: 50%;
+    }
+}
+
+/*-------*/
+.container{
+    background-color: RGB(41,189,224);
+    padding-bottom:10% ;
+
+}
+
+.top{
+    background-color: RGB(41,189,224);
+    text-align: center;
+    position: relative;
+    padding:6% 0 1% 0;
+}
+.top h2{
+    font-size: 2.2em;
+    color: white;
+    font-weight: normal;
+
+    }
+.top .left{
+    position: absolute;
+    left:3%;
+    top:40%;
+    width:7%;
+}
+.top .right {
+    position: absolute;
+    right: 3%;
+    top:44%;
+    width:7%;
+}
+.main{
+
+
+}
+.head {
+    background-color: RGB(185,233,245);
+    position: relative;
+    padding:3% 0 3% 0;
+    margin-bottom: 15%;
+}
+.main .head p{
+    font-size: 1.5em;
+    padding-left: 7%;
+}
+.main .head .img1{
+    position: absolute;
+    top:15%;
+    right: 2%;
+    width:8%;
+
+}
+.main .head .img2{
+    position: absolute;
+    top:100%;
+    left:10%;
+    width:3%;
+}
+.main .head span{
+    position: absolute;
+    color: white;
+    top:132%;
+    left: 9%;
+    font-size: 1.4em;
+}
+
+.main .content{
+    padding-bottom: 10%;
+
+}
+.main .content ul{
+    list-style-type: none;
+}
+
+.main .content .role{
+    width: 21%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 8.7%;
+    margin-bottom: 15%;
+    position: relative;
+
+}
+.container .content .role .inrole{
+    border:white solid;
+    border-width: 5px;
+}
+.main .content .inrole1{
+    background-color: RGB(245,201,123);
+    height:10%;
+    font-size: 2em;
+
+}
+.main .content .inrole1 span{
+    line-height: 300%;
+}
+.main .content .inrole2 {
+    background-color: RGB(131, 176, 154);
+    height: 5%;
+    font-size: 1.6em;
+    color:white;
+}
+.main .content .inrole3{
+    width:100%;
+    height:30px;
+    position: absolute;
+    padding-top: 15%;
+    background-color: RGB(41,189,224);
+
+}
+.main .content i{
+    background-image: url(images/task6/sprite.png);
+    margin:0px;
+    max-height: 30px;
+    max-width: 30px;
+    padding:11% 11%;
+    display:inline-block;
+}
+.main .content .inrole3{display: none;}
+.main .content .role:hover div.inrole3{display:block;}
+
+
+.main .content .cat1{
+    background-position: 0 0;
+    background-image: url(images/task6/sprite.png);
+}
+.main .content .cat2{
+    background-position: 30px 0;
+}
+.main .content .cat3{
+    background-position: 60px 0;
+}
+.main .content .cat4{
+    background-position: 90px 0;
+}
+.footer {
+    bottom: 0%;
+    background-color: RGB(41,189,224);
+    position: fixed;
+    width:100%;
+    padding: 5% 0;
+    max-width: 640px;
+}
+.container .footer button{
+    display:block;
+    width:70%;
+    background-color: RGB(251,180,53);
+    font-size: 2.4em;
+    padding:2% 0;
+    color:white;
+}
